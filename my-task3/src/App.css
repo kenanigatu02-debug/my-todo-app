@@ -1,0 +1,45 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.todo-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 400px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.todo-item h3 {
+  margin: 0;
+  color: #007acc;
+}
+
+.todo-item p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+/* when task is completed */
+.todo-item.done {
+  background-color: #d4edda; /* soft green */
+  border-color: #28a745;
+}
+
+/* when mouse hovers */
+.todo-item:hover {
+  background-color: tomato;
+  color: white; /* optional: make text white for contrast */
+}
